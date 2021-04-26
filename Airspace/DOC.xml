@@ -1,9 +1,9 @@
 <!-- Defines file type - airspaces definition -->
-<Airspaces>
+<Airspaces xmlns="ivao-data-elements">
     <!-- Defines a single airspace entry -->
     <Airspace
         id="dummy_aspc_id"
-    >
+        type="TMA">
         <!-- TODO: Update for new schema -->
         <!-- Defines the horizontal bounds of the airspace  -->
         <!--  * type: Defines the coordinate format (see Appendix 1) -->

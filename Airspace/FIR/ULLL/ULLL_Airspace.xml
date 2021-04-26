@@ -1,6 +1,9 @@
-<Airspaces>
+<?xml version="1.0" encoding="UTF-8" ?>
+<Airspaces xmlns="ivao-data-elements">
+    <AirspaceGroups>
     <AirspaceGroup id="ulll_acc" name="ULLL FIR"/>
     <AirspaceGroup id="ulll_sub_acc" name="ULLL FIR Sectors"/>
+    </AirspaceGroups>
     <Airspace
         id="aspc_fir_ulll"
         name="ULLL FIR"
