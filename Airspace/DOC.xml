@@ -4,6 +4,7 @@
     <Airspace
         id="dummy_aspc_id"
     >
+        <!-- TODO: Update for new schema -->
         <!-- Defines the horizontal bounds of the airspace  -->
         <!--  * type: Defines the coordinate format (see Appendix 1) -->
         <!--  * borderPolygon: Defines the {filename} for the JSON border polygon,
@@ -23,6 +24,10 @@
             <!-- clockwise arc from last coordinate with center
                     600000N 0350000E to the next coordinate -->
             arc 600000N 0350000E -
+            572100N 0323300E – 565500N 0311000E – 553700N 0305500E -
+            <!-- anti-clockwise arc from last coordinate with center
+                    600000N 0350000E to the next coordinate -->
+            arc ACW 600000N 0350000E -
             572100N 0323300E – 565500N 0311000E – 553700N 0305500E -
             <!-- continue along border polygon from last coordinate
                 to next coordinate -->
@@ -64,7 +69,7 @@
             > circle (KM||NM) (whole number / circle radius) (circle centerpoint, format as above)
                 -> ex. "circle KM 50 662500N 0293500E"
 
-            > clockwise arc (arc {centerpoint}, format as above)
+            > clockwise/anticlockwise arc (arc [ACW] {centerpoint}, format as above)
                 -> ex. "arc 5137.8N 04000.8E"
 -->
 
