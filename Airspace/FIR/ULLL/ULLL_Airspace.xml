@@ -1,0 +1,225 @@
+<Airspaces>
+    <AirspaceGroup id="ulll_acc" name="ULLL FIR"/>
+    <AirspaceGroup id="ulll_sub_acc" name="ULLL FIR Sectors"/>
+    <Airspace
+        id="aspc_fir_ulll"
+        name="ULLL FIR"
+        type="ACC"
+        groups="ulll_acc"
+    >
+        <HorizontalBounds
+            type="AIP"
+            borderPolygon="RU"
+        >
+            662500N 0293500E –662000N 0350500E –
+            660000N 0363900E –
+            650400N 0351000E –643300N 0360000E –635000N 0362600E –
+            615900N 0370600E –612000N 0371700E –610400N 0353200E –
+            605800N 0353300E –605000N 0352900E –602700N 0350900E –
+            595000N 0352100E –583500N 0354900E –581200N 0343400E –
+            572100N 0323300E –565500N 0311000E –553700N 0305500E -
+            {border} -
+            592818N 0280236E –593642N 0273812E –595300N 0255200E –
+            600800N 0263300E –601201N 0271735E - {border} -
+            662500N 0293500E -662500N 0293500E
+        </HorizontalBounds>
+        <VerticalBounds>
+                <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FL"
+                    value="50"
+                    description="FL 50"
+                />
+                <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+                />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+        id="aspc_fir_ulll_sec_n"
+        name="ULLL FIR - Sector North"
+        type="ACC"
+        groups="ulll_sub_acc"
+    >
+        <HorizontalBounds
+            type="AIP"
+            borderPolygon="RU"
+        >
+            611509N 0301236E –611607N 0323704E –611844N 0325901E –
+            611930N 0332227E –611415N 0332953E –610508N 0342933E –
+            610400N 0353200E –605800N 0353300E –605000N 0352900E –
+            602700N 0350900E –595000N 0352100E –593908N 0352511E –
+            593651N 0315648E –594052N 0310928E –595418N 0303541E –
+            602020N 0294808E –611509N 0301236E
+        </HorizontalBounds>
+        <VerticalBounds>
+                <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FL"
+                    value="50"
+                    description="FL 50"
+                />
+                <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+                />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+        id="aspc_fir_ulll_sec_se"
+        name="ULLL FIR - Sector Southeast"
+        type="ACC"
+        groups="ulll_sub_acc"
+    >
+        <HorizontalBounds
+            type="AIP"
+            borderPolygon="RU"
+        >
+            574546N 0310417E –575822N 0303936E –582124N 0303051E –
+            583009N 0301910E –585346N 0303947E –591912N 0305245E –
+            593008N 0310850E –594052N 0310928E –593651N 0315648E –
+            593908N 0352511E –583500N 0354900E –581200N 0343400E –
+            572100N 0323300E –574546N 0310417E
+        </HorizontalBounds>
+        <VerticalBounds>
+                <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FL"
+                    value="50"
+                    description="FL 50"
+                />
+                <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+                />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+        id="aspc_fir_ulll_sec_sw"
+        name="ULLL FIR - Sector Southwest"
+        type="ACC"
+        groups="ulll_sub_acc"
+    >
+        <HorizontalBounds
+            type="AIP"
+            borderPolygon="RU"
+        >
+            592149N 0281245E –591904N 0291554E –593605N 0301723E –
+            594052N 0310928E –593008N 0310850E –591912N 0305245E –
+            585346N 0303947E –583009N 0301910E –583045N 0294945E –
+            582334N 0293204E –581031N 0290804E –581128N 0284658E –
+            580216N 0273706E - {border} -
+            592149N 0281245E
+        </HorizontalBounds>
+        <VerticalBounds>
+                <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FL"
+                    value="50"
+                    description="FL 50"
+                />
+                <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+                />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+        id="aspc_fir_ulll_sec_w"
+        name="ULLL FIR - Sector West"
+        type="ACC"
+        groups="ulll_sub_acc"
+    >
+        <HorizontalBounds
+            type="AIP"
+            borderPolygon="RU"
+        >
+            611342N 0290825E –611509N 0301236E –602020N 0294808E –
+            595418N 0303541E –594052N 0310928E –593605N 0301723E –
+            591904N 0291554E –592149N 0281245E - {border} -
+            592818N 0280236E –593642N 0273812E –595300N 0255200E –
+            600800N 0263300E –601201N 0271735E - {border} -
+            611342N 0290825E
+        </HorizontalBounds>
+        <VerticalBounds>
+                <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FL"
+                    value="50"
+                    description="FL 50"
+                />
+                <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+                />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+        id="aspc_fir_ulll_sec_pz"
+        name="ULLL FIR - Sector Petrozavodsk"
+        type="ACC"
+        groups="ulll_sub_acc"
+    >
+        <HorizontalBounds
+            type="AIP"
+            borderPolygon="RU"
+        >
+            662500N 0293500E –662000N 0350500E –660000N 0363900E –
+            650400N 0351000E –643300N 0360000E –635000N 0362600E –
+            615900N 0370600E –612000N 0371700E –610400N 0353200E –
+            610508N 0342933E –611415N 0332953E –611930N 0332227E –
+            611844N 0325901E –611607N 0323704E –611509N 0301236E –
+            611342N 0290825E - {border} -
+            662500N 0293500E
+        </HorizontalBounds>
+        <VerticalBounds>
+                <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FL"
+                    value="50"
+                    description="FL 50"
+                />
+                <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+                />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+        id="aspc_fir_ulll_sec_vl"
+        name="ULLL FIR - Sector Velikiye Luki"
+        type="ACC"
+        groups="ulll_sub_acc"
+    >
+        <HorizontalBounds
+            type="AIP"
+            borderPolygon="RU"
+        >
+            580216N 0273706E –581128N 0284658E –581031N 0290804E –
+            582334N 0293204E –583045N 0294945E –583009N 0301910E –
+            582124N 0303051E –575822N 0303936E –574546N 0310417E –
+            572100N 0323300E –565500N 0311000E –553700N 0305500E - {border} -
+            580216N 0273706E
+        </HorizontalBounds>
+        <VerticalBounds>
+                <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FL"
+                    value="50"
+                    description="FL 50"
+                />
+                <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+                />
+        </VerticalBounds>
+    </Airspace>
+</Airspaces>

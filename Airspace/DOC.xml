@@ -1,0 +1,72 @@
+<!-- Defines file type - airspaces definition -->
+<Airspaces>
+    <!-- Defines a single airspace entry -->
+    <Airspace
+        id="dummy_aspc_id"
+    >
+        <!-- Defines the horizontal bounds of the airspace  -->
+        <!--  * type: Defines the coordinate format (see Appendix 1) -->
+        <!--  * borderPolygon: Defines the {filename} for the JSON border polygon,
+                        located in "Data/BorderPolygons/{filename}.json" -->
+        <HorizontalBounds
+            type="AIP"
+            borderPolygon="RU"
+        >
+            <!-- IMPORTANT: No spaces at the end of lines!!! -->
+            <!-- IMPORTANT: No blank lines!!! -->
+            662500N 0293500E – 662000N 0350500E –
+            6600.0N 03639.0E –
+            <!-- Spaces can be ommited before a coordinate begins-->
+            650400N 0351000E –643300N 0360000E –635000N 0362600E –
+            circle KM 50 640000N 0370000E -
+            605800N 0353300E – 605000N 0352900E – 602700N 0350900E –
+            <!-- clockwise arc from last coordinate with center
+                    600000N 0350000E to the next coordinate -->
+            arc 600000N 0350000E -
+            572100N 0323300E – 565500N 0311000E – 553700N 0305500E -
+            <!-- continue along border polygon from last coordinate
+                to next coordinate -->
+            {border} -
+            592818N 0280236E – 593642N 0273812E – 595300N 0255200E –
+            600800N 0263300E – 601201N 0271735E - {border} -
+            662500N 0293500E - 662500N 0293500E
+        </HorizontalBounds>
+        <VerticalBounds>
+                <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FL"
+                    value="50"
+                    description="FL 50"
+                />
+                <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+                />
+        </VerticalBounds>
+    </Airspace>
+
+</Airspaces>
+
+<!-- Appendix 1
+    Supported coordinate formats:
+
+    - "AIP": supports a string of DMS coordinates, separated by ' - '
+
+        * supported coordinate formats:
+
+            > ([0-9]{6})(N||E) ([0-9]{7})(S||W)
+                -> ex. "662500N 0293500E"
+
+            > ([0-9]{4}).[0-9](N||E) ([0-9]{5}).[0-9](S||W)
+                -> ex. "5137.8N 04000.8E"
+
+            > circle (KM||NM) (whole number / circle radius) (circle centerpoint, format as above)
+                -> ex. "circle KM 50 662500N 0293500E"
+
+            > clockwise arc (arc {centerpoint}, format as above)
+                -> ex. "arc 5137.8N 04000.8E"
+-->
+
+
+

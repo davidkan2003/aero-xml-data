@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Airspaces xmlns="D:\IVAO\python-geo\schema\Elements.xsd">
+    <AirspaceGroups>
+        <AirspaceGroup id="uuwv_acc" name="UUWV FIR"/>
+        <AirspaceGroup id="uuwv_sub_acc" name="UUWV FIR Sectors"/>
+    </AirspaceGroups>
+    <Airspace
+            id="aspc_fir_uuwv"
+            name="UUWV FIR"
+            type="ACC"
+            groups="uuwv_acc"
+    >
+        <AirspaceBounds>
+            <HorizontalBounds
+                    type="AIP"
+                    borderPolygon="RU"
+            >
+                553700N 0305500E –565500N 0311000E –572100N 0323300E –
+                581200N 0343400E –583500N 0354900E –584600N 0450000E –
+                581000N 0465600E –571400N 0464500E –553600N 0462600E –
+                544900N 0463500E –543800N 0435100E –533000N 0422800E –
+                522000N 0425200E –513200N 0423500E –504500N 0430200E –
+                492200N 0401000E -
+                {border} -
+                553700N 0305500E
+            </HorizontalBounds>
+            <VerticalBounds>
+                <VerticalBoundsEntry
+                        direction="LOW"
+                        type="FT_AMSL"
+                        value="5500"
+                        description="5500 ft. AMSL"
+                />
+                <VerticalBoundsEntry
+                        direction="HIGH"
+                        type="UNLTD"
+                        description="Unlimited"
+                />
+            </VerticalBounds>
+        </AirspaceBounds>
+    </Airspace>
+    <Airspace
+            id="aspc_fir_uuwv_sec_w1"
+            name="UUWV FIR - Sector W1"
+            type="ACC"
+            groups="uuwv_sub_acc"
+    >
+        <HorizontalBounds
+                type="AIP"
+                borderPolygon="RU"
+        >
+            522321N 0385552E –522833N 0400330E –515447N 0402119E –
+            514306N 0401122E –513616N 0402943E –511901N 0403603E –
+            511241N 0402607E –511100N 0401132E –505206N 0400519E –
+            512007N 0392549E –512218N 0385304E –514618N 0384751E –
+            520909N 0381605E –521421N 0384148E –522321N 0385552E
+        </HorizontalBounds>
+        <VerticalBounds>
+            <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FT_AMSL"
+                    value="5500"
+                    description="5500 ft. AMSL"
+            />
+            <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+            />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+            id="aspc_fir_uuwv_sec_w2"
+            name="UUWV FIR - Sector W2"
+            type="ACC"
+            groups="uuwv_sub_acc"
+    >
+        <HorizontalBounds
+                type="AIP"
+                borderPolygon="RU"
+        >
+            503504N 0395942E –493055N 0402734E –492200N 0401000E -
+            {border} -
+            501900N 0364942E –504513N 0372549E –505159N 0374054E –
+            512218N 0385304E –512007N 0392549E –505206N 0400519E –
+            503504N 0395942E
+        </HorizontalBounds>
+        <VerticalBounds>
+            <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FT_AMSL"
+                    value="5500"
+                    description="5500 ft. AMSL"
+            />
+            <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+            />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+            id="aspc_fir_uuwv_sec_w3"
+            name="UUWV FIR - Sector W3"
+            type="ACC"
+            groups="uuwv_sub_acc"
+    >
+        <HorizontalBounds
+                type="AIP"
+                borderPolygon="RU"
+        >
+            511901N 0403603E –505148N 0405405E –501139N 0415031E –
+            493055N 0402734E –503504N 0395942E –505206N 0400519E –
+            511100N 0401132E –511241N 0402607E –511901N 0403603E
+        </HorizontalBounds>
+        <VerticalBounds>
+            <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FT_AMSL"
+                    value="5500"
+                    description="5500 ft. AMSL"
+            />
+            <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+            />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+            id="aspc_fir_uuwv_sec_w4"
+            name="UUWV FIR - Sector W4"
+            type="ACC"
+            groups="uuwv_sub_acc"
+    >
+        <HorizontalBounds
+                type="AIP"
+                borderPolygon="RU"
+        >
+            515447N 0402119E –522833N 0400330E –522956N 0402839E –
+            524812N 0424230E –522828N 0424910E –522000N 0425200E –
+            513200N 0423500E –504500N 0430200E –501139N 0415031E –
+            505148N 0405405E –511901N 0403603E –513616N 0402943E –
+            514306N 0401122E –515447N 0402119E
+        </HorizontalBounds>
+        <VerticalBounds>
+            <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FT_AMSL"
+                    value="5500"
+                    description="5500 ft. AMSL"
+            />
+            <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+            />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+            id="aspc_fir_uuwv_sec_g1"
+            name="UUWV FIR - Sector G1"
+            type="ACC"
+            groups="uuwv_sub_acc"
+    >
+        <HorizontalBounds
+                type="AIP"
+                borderPolygon="RU"
+        >
+            565947N 0401926E –570835N 0405136E –564358N 0423326E –
+            560754N 0431305E –555137N 0433029E –553540N 0434650E –
+            554033N 0431632E –554743N 0430937E –554421N 0410618E –
+            554945N 0403728E –553953N 0395440E –560134N 0393803E –
+            562547N 0385942E –565947N 0401926E
+        </HorizontalBounds>
+        <VerticalBounds>
+            <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FT_AMSL"
+                    value="5500"
+                    description="5500 ft. AMSL"
+            />
+            <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+            />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+            id="aspc_fir_uuwv_sec_g2"
+            name="UUWV FIR - Sector G2"
+            type="ACC"
+            groups="uuwv_sub_acc"
+    >
+        <HorizontalBounds
+                type="AIP"
+                borderPolygon="RU"
+        >
+            554945N 0403728E –554421N 0410618E –554743N 0430937E –
+            554033N 0431632E –553540N 0434650E –543800N 0435100E –
+            545001N 0392323E –550535N 0393627E –551227N 0394221E –
+            553300N 0395953E –553953N 0395440E –554945N 0403728E
+        </HorizontalBounds>
+        <VerticalBounds>
+            <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FT_AMSL"
+                    value="5500"
+                    description="5500 ft. AMSL"
+            />
+            <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+            />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+            id="aspc_fir_uuwv_sec_g3"
+            name="UUWV FIR - Sector G3"
+            type="ACC"
+            groups="uuwv_sub_acc"
+    >
+        <HorizontalBounds
+                type="AIP"
+                borderPolygon="RU"
+        >
+            554209N 0445509E –553600N 0462600E –544900N 0463500E –
+            543800N 0435100E –553540N 0434650E –554209N 0445509E
+        </HorizontalBounds>
+        <VerticalBounds>
+            <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FT_AMSL"
+                    value="5500"
+                    description="5500 ft. AMSL"
+            />
+            <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+            />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+            id="aspc_fir_uuwv_sec_g4"
+            name="UUWV FIR - Sector G4"
+            type="ACC"
+            groups="uuwv_sub_acc"
+    >
+        <HorizontalBounds
+                type="AIP"
+                borderPolygon="RU"
+        >
+            565441N 0451951E –572053N 0464619E –571400N 0464500E –
+            553600N 0462600E –554209N 0445509E –553540N 0434650E –
+            555137N 0433029E –560754N 0431305E –564358N 0423326E –
+            565441N 0451951E
+        </HorizontalBounds>
+        <VerticalBounds>
+            <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FT_AMSL"
+                    value="5500"
+                    description="5500 ft. AMSL"
+            />
+            <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+            />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+            id="aspc_fir_uuwv_sec_g5"
+            name="UUWV FIR - Sector G5"
+            type="ACC"
+            groups="uuwv_sub_acc"
+    >
+        <HorizontalBounds
+                type="AIP"
+                borderPolygon="RU"
+        >
+            584600N 0450000E –581000N 0465600E –572053N 0464619E –
+            565441N 0451951E –564358N 0423326E –570835N 0405136E –
+            584653N 0422512E –584600N 0450000E
+        </HorizontalBounds>
+        <VerticalBounds>
+            <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FT_AMSL"
+                    value="5500"
+                    description="5500 ft. AMSL"
+            />
+            <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+            />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+            id="aspc_fir_uuwv_sec_z1"
+            name="UUWV FIR - Sector Z1"
+            type="ACC"
+            groups="uuwv_sub_acc"
+    >
+        <HorizontalBounds
+                type="AIP"
+                borderPolygon="RU"
+        >
+            550010N 0305910E –552711N 0334559E –553232N 0353319E –
+            551632N 0353526E –550047N 0344005E –544833N 0340203E –
+            543647N 0311152E - {border} -
+            550010N 0305910E
+        </HorizontalBounds>
+        <VerticalBounds>
+            <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FT_AMSL"
+                    value="5500"
+                    description="5500 ft. AMSL"
+            />
+            <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+            />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+            id="aspc_fir_uuwv_sec_z2"
+            name="UUWV FIR - Sector Z2"
+            type="ACC"
+            groups="uuwv_sub_acc"
+    >
+        <HorizontalBounds
+                type="AIP"
+                borderPolygon="RU"
+        >
+            564214N 0310729E –561909N 0342957E –560534N 0360328E –
+            555450N 0355048E –555027N 0354221E –554739N 0343059E –
+            553842N 0332229E –551416N 0305533E - {border} -
+            553700N 0305500E –564214N 0310729E
+        </HorizontalBounds>
+        <VerticalBounds>
+            <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FT_AMSL"
+                    value="5500"
+                    description="5500 ft. AMSL"
+            />
+            <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+            />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+            id="aspc_fir_uuwv_sec_z3"
+            name="UUWV FIR - Sector Z3"
+            type="ACC"
+            groups="uuwv_sub_acc"
+    >
+        <HorizontalBounds
+                type="AIP"
+                borderPolygon="RU"
+        >
+            551416N 0305533E –553842N 0332229E –554739N 0343059E –
+            555027N 0354221E –554510N 0353219E –553232N 0353319E –
+            552711N 0334559E –550010N 0305910E - {border} -
+            551416N 0305533E
+        </HorizontalBounds>
+        <VerticalBounds>
+            <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FT_AMSL"
+                    value="5500"
+                    description="5500 ft. AMSL"
+            />
+            <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+            />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+            id="aspc_fir_uuwv_sec_k1"
+            name="UUWV FIR - Sector K1"
+            type="ACC"
+            groups="uuwv_sub_acc"
+    >
+        <HorizontalBounds
+                type="AIP"
+                borderPolygon="RU"
+        >
+            551632N 0353526E –544400N 0363853E –543943N 0370100E –
+            543237N 0362837E –535406N 0355444E –535717N 0352016E –
+            534103N 0323020E - {border} -
+            543647N 0311152E –544833N 0340203E –550047N 0344005E –
+            551632N 0353526E
+        </HorizontalBounds>
+        <VerticalBounds>
+            <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FT_AMSL"
+                    value="5500"
+                    description="5500 ft. AMSL"
+            />
+            <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+            />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+            id="aspc_fir_uuwv_sec_k2"
+            name="UUWV FIR - Sector K2"
+            type="ACC"
+            groups="uuwv_sub_acc"
+    >
+        <HorizontalBounds
+                type="AIP"
+                borderPolygon="RU"
+        >
+            534103N 0323020E –535717N 0352016E –535406N 0355444E –
+            532229N 0352517E –530054N 0353638E –524153N 0353029E –
+            515250N 0341917E - {border} -
+            534103N 0323020E
+        </HorizontalBounds>
+        <VerticalBounds>
+            <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FT_AMSL"
+                    value="5500"
+                    description="5500 ft. AMSL"
+            />
+            <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+            />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+            id="aspc_fir_uuwv_sec_k3"
+            name="UUWV FIR - Sector K3"
+            type="ACC"
+            groups="uuwv_sub_acc"
+    >
+        <HorizontalBounds
+                type="AIP"
+                borderPolygon="RU"
+        >
+            535406N 0355444E –543237N 0362837E –543943N 0370100E –
+            543600N 0371953E –543512N 0372248E –542728N 0375019E –
+            531523N 0372420E –523556N 0375531E –522323N 0370635E –
+            532229N 0352517E –535406N 0355444E
+        </HorizontalBounds>
+        <VerticalBounds>
+            <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FT_AMSL"
+                    value="5500"
+                    description="5500 ft. AMSL"
+            />
+            <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+            />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+            id="aspc_fir_uuwv_sec_k4"
+            name="UUWV FIR - Sector K4"
+            type="ACC"
+            groups="uuwv_sub_acc"
+    >
+        <HorizontalBounds
+                type="AIP"
+                borderPolygon="RU"
+        >
+            523556N 0375531E –520909N 0381605E –514618N 0384751E –
+            512218N 0385304E –505159N 0374054E –504513N 0372549E –
+            501900N 0364942E - {border} -
+            515250N 0341917E –524153N 0353029E –530054N 0353638E –
+            532229N 0352517E –522323N 0370635E –523556N 0375531E
+        </HorizontalBounds>
+        <VerticalBounds>
+            <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FT_AMSL"
+                    value="5500"
+                    description="5500 ft. AMSL"
+            />
+            <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+            />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+            id="aspc_fir_uuwv_sec_p1"
+            name="UUWV FIR - Sector P1"
+            type="ACC"
+            groups="uuwv_sub_acc"
+    >
+        <HorizontalBounds
+                type="AIP"
+                borderPolygon="RU"
+        >
+            542728N 0375019E –542044N 0381419E –541711N 0383523E –
+            522833N 0400330E –522321N 0385552E –521421N 0384148E –
+            520909N 0381605E –523556N 0375531E –531523N 0372420E –
+            542728N 0375019E
+        </HorizontalBounds>
+        <VerticalBounds>
+            <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FT_AMSL"
+                    value="5500"
+                    description="5500 ft. AMSL"
+            />
+            <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+            />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+            id="aspc_fir_uuwv_sec_p2"
+            name="UUWV FIR - Sector P2"
+            type="ACC"
+            groups="uuwv_sub_acc"
+    >
+        <HorizontalBounds
+                type="AIP"
+                borderPolygon="RU"
+        >
+            541400N 0385353E –540223N 0400617E –534049N 0414047E –
+            533336N 0423217E –533000N 0422800E –524812N 0424230E –
+            522956N 0402839E –522833N 0400330E –541711N 0383523E –
+            541400N 0385353E
+        </HorizontalBounds>
+        <VerticalBounds>
+            <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FT_AMSL"
+                    value="5500"
+                    description="5500 ft. AMSL"
+            />
+            <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+            />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+            id="aspc_fir_uuwv_sec_p3"
+            name="UUWV FIR - Sector P3"
+            type="ACC"
+            groups="uuwv_sub_acc"
+    >
+        <HorizontalBounds
+                type="AIP"
+                borderPolygon="RU"
+        >
+            545001N 0392323E –543800N 0435100E –533336N 0423217E –
+            534049N 0414047E –540223N 0400617E –541400N 0385353E –
+            545001N 0392323E
+        </HorizontalBounds>
+        <VerticalBounds>
+            <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FT_AMSL"
+                    value="5500"
+                    description="5500 ft. AMSL"
+            />
+            <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+            />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+            id="aspc_fir_uuwv_sec_s1"
+            name="UUWV FIR - Sector S1"
+            type="ACC"
+            groups="uuwv_sub_acc"
+    >
+        <HorizontalBounds
+                type="AIP"
+                borderPolygon="RU"
+        >
+            570835N 0405136E –565947N 0401926E –562547N 0385942E –
+            563058N 0385120E –565220N 0381614E –570216N 0375943E –
+            570628N 0374243E –583500N 0354900E –584653N 0422512E –
+            570835N 0405136E
+        </HorizontalBounds>
+        <VerticalBounds>
+            <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FT_AMSL"
+                    value="5500"
+                    description="5500 ft. AMSL"
+            />
+            <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+            />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+            id="aspc_fir_uuwv_sec_s2"
+            name="UUWV FIR - Sector S2"
+            type="ACC"
+            groups="uuwv_sub_acc"
+    >
+        <HorizontalBounds
+                type="AIP"
+                borderPolygon="RU"
+        >
+            583500N 0354900E –570628N 0374243E –564915N 0370310E –
+            564306N 0364916E –563500N 0363908E –562142N 0362300E –
+            565012N 0352948E –565440N 0345645E –575735N 0335845E –
+            581200N 0343400E –583500N 0354900E
+        </HorizontalBounds>
+        <VerticalBounds>
+            <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FT_AMSL"
+                    value="5500"
+                    description="5500 ft. AMSL"
+            />
+            <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+            />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace
+            id="aspc_fir_uuwv_sec_s3"
+            name="UUWV FIR - Sector S3"
+            type="ACC"
+            groups="uuwv_sub_acc"
+    >
+        <HorizontalBounds
+                type="AIP"
+                borderPolygon="RU"
+        >
+            565440N 0345645E –565012N 0352948E –562142N 0362300E –
+            560857N 0360728E –560534N 0360328E –561909N 0342957E –
+            564214N 0310729E –565500N 0311000E –572100N 0323300E –
+            574050N 0331850E –575735N 0335845E –565440N 0345645E
+        </HorizontalBounds>
+        <VerticalBounds>
+            <VerticalBoundsEntry
+                    direction="LOW"
+                    type="FT_AMSL"
+                    value="5500"
+                    description="5500 ft. AMSL"
+            />
+            <VerticalBoundsEntry
+                    direction="HIGH"
+                    type="UNLTD"
+                    description="Unlimited"
+            />
+        </VerticalBounds>
+    </Airspace>
+    <Airspace id="aspc_uuuu_tma" type="TMA" groups="uuuu_tma_sub">
+        <AirspaceBoundsCollection>
+            <AirspaceBounds>
+                <HorizontalBounds borderPolygon="RU">
+                    553232N 0353319E –554510N 0353219E –555027N 0354221E–
+                    555450N 0355048E –560534N 0360328E –560857N 0360728E –
+                    562142N 0362300E –563500N 0363908E –564306N 0364916E –
+                    564915N 0370310E –570628N 0374243E –570216N 0375943E –
+                    565220N 0381614E –563058N 0385120E –562547N 0385942E –
+                    560134N 0393803E –553953N 0395440E –553300N 0395953E –
+                    551227N 0394221E –550535N 0393627E –545001N 0392323E –
+                    541400N 0385353E –541711N 0383523E –542044N 0381419E –
+                    542728N 0375019E –543512N 0372248E –543600N 0371953E –
+                    544400N 0363853E –551632N 0353526E –552322N 0353430E –
+                    553232N 0353319E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry type="FT AMSL" direction="LOW" value="3000"/>
+                    <VerticalBoundsEntry type="FL" direction="HIGH" value="285"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+            <AirspaceBounds>
+                <HorizontalBounds borderPolygon="RU">
+                    555631N 0374601E –560132N 0374615E –560536N 0374642E –
+                    560519N 0374847E –560230N 0374830E –555700N 0374800E –
+                    555233N 0375525E –555100N 0375800E –554430N 0381600E –
+                    553328N 0382600E –551252N 0382357E –552053N 0381110E –
+                    553313N 0375600E –553900N 0375205E –553449N 0374151E –
+                    553430N 0374106E –553424N 0374000E –553400N 0373653E –
+                    554412N 0373357E –555631N 0374601E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FT AMSL" value="3000"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="1500"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+            <AirspaceBounds>
+                <HorizontalBounds borderPolygon="RU">
+                    554407N 0365730E –553715N 0364830E –551743N 0362250E –
+                    554159N 0364342E–554245N 0364838E –554407N 0365730E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FT AMSL" value="3000"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="1500"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+            <AirspaceBounds>
+                <HorizontalBounds borderPolygon="RU">
+                    555708N 0362127E –555339N 0364402E –555215N 0364856E –
+                    554904N 0365343E –554656N 0365654E –554407N 0365730E –
+                    554245N 0364838E –554159N 0364342E –555708N 0362127E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FT AMSL" value="3000"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="1500"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+        </AirspaceBoundsCollection>
+    </Airspace>
+    <Airspace id="aspc_uuuu_tma_sec_a1" type="TMA" groups="uuuu_tma_sub">
+        <AirspaceBoundsCollection>
+            <AirspaceBounds>
+                <HorizontalBounds borderPolygon="RU">
+                    564306N 0364916E –564915N 0370310E –570628N 0374243E –
+                    570216N 0375943E –564935N 0375127E –563350N 0374317E –
+                    562611N 0374855E –560810N 0374658E –560735N 0373712E –
+                    555500N 0374429E –554459N 0373715E –554336N 0372300E –
+                    554339N 0372120E –553543N 0365951E –553641N 0363852E –
+                    553706N 0362528E –553738N 0361040E –553232N 0353319E –
+                    554510N 0353219E –555027N 0354221E –555450N 0355048E –
+                    560534N 0360328E –560857N 0360728E –562142N 0362300E –
+                    563500N 0363908E –564306N 0364916E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FL" value="285"/>
+                    <VerticalBoundsEntry direction="LOW" type="FL" value="135"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+            <AirspaceBounds>
+                <HorizontalBounds borderPolygon="RU">
+                    562808N 0365105E –561738N 0364227E –561652N 0363735E –
+                    561113N 0362554E –560324N 0361951E –560214N 0361526E –
+                    555623N 0361113E –554828N 0361610E –554201N 0362011E –
+                    554130N 0362030E –553706N 0362528E –553738N 0361040E –
+                    553232N 0353319E –554510N 0353219E –555027N 0354221E –
+                    555450N 0355048E –560534N 0360328E –560857N 0360728E –
+                    562142N 0362300E –563500N 0363908E –564306N 0364916E –
+                    564915N 0370310E –570628N 0374243E –570216N 0375943E –
+                    564935N 0375127E –563350N 0374317E –563309N 0373932E –
+                    563101N 0373036E –563055N 0371816E –563100N 0371501E –
+                    563059N 0371104E –562859N 0365701E –562808N 0365105E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FL" value="135"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="3000"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+        </AirspaceBoundsCollection>
+    </Airspace>
+    <Airspace id="aspc_uuuu_tma_sec_a2" type="TMA" groups="uuuu_tma_sub">
+        <AirspaceBoundsCollection>
+            <AirspaceBounds>
+                <HorizontalBounds borderPolygon="RU">
+                    554427N 0364007E –554130N 0362030E –555623N 0361113E –
+                    560214N 0361526E –560324N 0361951E –560757N 0362322E –
+                    561113N 0362554E –561652N 0363735E –561738N 0364227E –
+                    562808N 0365105E –563059N 0371104E –562609N 0371307E –
+                    562253N 0371501E –562012N 0371626E –560609N 0371117E –
+                    555815N 0372013E –555838N 0373248E –555527N 0373652E –
+                    554459N 0373715E –554336N 0372300E –554339N 0372120E –
+                    554350N 0371155E –554407N 0365730E –554110N 0365551E –
+                    554612N 0365200E –554427N 0364007E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FL" value="135"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="6000"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+            <AirspaceBounds>
+                <HorizontalBounds>
+                    561908N 0365200E –561758N 0370503E –562253N 0371501E –
+                    562053N 0371604E –562012N 0371626E –560609N 0371117E –
+                    555815N 0372013E –555838N 0373248E –555527N 0373652E –
+                    554459N 0373715E –554336N 0372300E –554339N 0372120E –
+                    554350N 0371155E –554407N 0365730E –554110N 0365551E –
+                    554612N 0365200E –554427N 0364007E –554130N 0362030E –
+                    555623N 0361113E–560214N 0361526E –560324N 0361951E –
+                    561113N 0362554E –561652N 0363735E –561738N 0364227E –
+                    561908N 0365200E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FT AMSL" value="6000"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="5500"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+            <AirspaceBounds>
+                <HorizontalBounds>
+                    561652N 0363735E –561113N 0362554E –560757N 0362322E –
+                    560703N 0362419E –561332N 0365608E –561758N 0370503E –
+                    561908N 0365200E –561738N 0364227E –561652N 0363735E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FT AMSL" value="5500"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="5000"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+            <AirspaceBounds>
+                <HorizontalBounds>
+                    562053N 0371604E –561747N 0370705E –561758N 0370503E –
+                    562253N 0371501E –562053N 0371604E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FT AMSL" value="5500"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="3000"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+        </AirspaceBoundsCollection>
+    </Airspace>
+    <Airspace id="aspc_uuuu_tma_sec_a2s" type="TMA" groups="uuuu_tma_sub">
+        <AirspaceBoundsCollection>
+            <AirspaceBounds>
+                <HorizontalBounds borderPolygon="RU">
+                    562334N 0375422E –562031N 0380010E –561716N 0381257E –
+                    560736N 0380835E –560637N 0380809E –560530N 0381400E –
+                    555531N 0381508E –555212N 0375600E –555153N 0375153E –
+                    554936N 0375000E –554459N 0373715E –555527N 0373652E –
+                    555838N 0373248E –555815N 0372013E –560609N 0371117E –
+                    562012N 0371626E –562253N 0371501E –562609N 0371307E –
+                    563059N 0371104E –563100N 0371501E –563055N 0371816E –
+                    563101N 0373036E –563309N 0373932E –563350N 0374317E –
+                    562611N 0374855E –562334N 0375422E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FL" value="135"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="10000"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+            <AirspaceBounds>
+                <HorizontalBounds>
+                    562611N 0374855E –562334N 0375422E –562031N 0380010E –
+                    561716N 0381257E –560736N 0380835E - arc ACW 555248N 0380348E -
+                    560519N 0374847E –560215N 0374830E –555700N 0374800E –
+                    555532N 0375028E –555429N 0375214E –555212N 0375600E –
+                    555153N 0375153E –554936N 0375000E –554459N 0373715E –
+                    555527N 0373652E –555838N 0373248E –555815N 0372013E –
+                    560609N 0371117E –562012N 0371626E –562253N 0371501E –
+                    562609N 0371307E –563059N 0371104E –563100N 0371501E –
+                    563055N 0371816E –563101N 0373036E –563309N 0373932E –
+                    563350N 0374317E –562611N 0374855E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FT AMSL" value="10000"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="6000"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+            <AirspaceBounds>
+                <HorizontalBounds>
+                    562012N 0371626E –562053N 0371604E –562253N 0371501E –
+                    563100N 0371501E –563055N 0371816E –563101N 0373036E –
+                    563309N 0373932E –563350N 0374317E –562611N 0374855E –
+                    562334N 0375422E –562031N 0380010E –561716N 0381257E –
+                    560736N 0380835E - arc ACW 555248N 0380348E -
+                    560519N 0374847E –560215N 0374830E –555700N 0374800E –
+                    555532N 0375028E –555429N 0375214E –555212N 0375600E –
+                    555153N 0375153E –554936N 0375000E –554459N 0373715E –
+                    555527N 0373652E –555838N 0373248E –555815N 0372013E –
+                    560609N 0371117E –562012N 0371626E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FT AMSL" value="6000"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="5500"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+            <AirspaceBounds>
+                <HorizontalBounds>
+                    562609N 0373909E –562611N 0374855E –563350N 0374317E –
+                    563309N 0373932E –563101N 0373036E –563055N 0371816E –
+                    563100N 0371501E –562253N 0371501E –562053N 0371604E –
+                    562338N 0372408E –562609N 0373909E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FT AMSL" value="5500"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="3000"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+        </AirspaceBoundsCollection>
+    </Airspace>
+    <Airspace id="aspc_uuuu_tma_sec_a3" type="TMA" groups="uuuu_tma_sub">
+        <AirspaceBoundsCollection>
+            <AirspaceBounds>
+                <HorizontalBounds borderPolygon="RU">
+                    554339N 0372120E –552150N 0373248E –552231N 0373841E –
+                    551627N 0373940E –551309N 0373918E –550918N 0373858E –
+                    550809N 0373853E –550313N 0373820E –545612N 0373734E –
+                    543512N 0372248E –543600N 0371953E –544400N 0363853E –
+                    551632N 0353526E –552322N 0353430E –553232N 0353319E –
+                    553738N 0361040E –553706N 0362528E –553641N 0363852E –
+                    553543N 0365951E –554339N 0372120E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FL" value="285"/>
+                    <VerticalBoundsEntry direction="LOW" type="FL" value="135"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+            <AirspaceBounds>
+                <HorizontalBounds>
+                    551900N 0364100E –551552N 0363714E –551000N 0363930E –
+                    550036N 0363753E –545948N 0364312E –545850N 0364932E –
+                    545440N 0371122E –545514N 0372052E –545612N 0373734E –
+                    543512N 0372248E –543600N 0371953E –544400N 0363853E –
+                    551632N 0353526E –552322N 0353430E –553232N 0353319E –
+                    553738N 0361040E –553706N 0362528E –552500N 0363900E –
+                    552042N 0364030E –551900N 0364100E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FL" value="135"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="3000"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+        </AirspaceBoundsCollection>
+    </Airspace>
+    <Airspace id="aspc_uuuu_tma_sec_a4" type="TMA" groups="uuuu_tma_sub">
+        <AirspaceBoundsCollection>
+            <AirspaceBounds>
+                <HorizontalBounds borderPolygon="RU">
+                    554130N 0362030E –552500N 0363900E –552042N 0364030E –
+                    551900N 0364100E –551552N 0363714E –551000N 0363930E –
+                    550036N 0363753E –545948N 0364312E –545850N 0364932E –
+                    545440N 0371122E –545514N 0372052E –545612N 0373734E –
+                    550131N 0373809E –550313N 0373820E –550809N 0373853E –
+                    550918N 0373858E –551309N 0373918E –551627N 0373940E –
+                    552604N 0373807E –552744N 0373306E –553117N 0373226E –
+                    553400N 0373653E –554459N 0373715E –554336N 0372300E –
+                    554339N 0372120E –554350N 0371155E –554407N 0365730E –
+                    554110N 0365551E –554612N 0365200E –554427N 0364007E –
+                    554130N 0362030E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FL" value="135"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="10000"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+            <AirspaceBounds>
+                <HorizontalBounds>
+                    545948N 0364312E –545850N 0364932E –545440N 0371122E –
+545514N 0372052E –545612N 0373734E –550131N 0373809E –
+550313N 0373820E –550809N 0373853E –550918N 0373858E –
+551309N 0373918E –551627N 0373940E –552604N 0373807E –
+552744N 0373306E –553117N 0373226E –553400N 0373653E –
+554459N 0373715E –554336N 0372300E –554339N 0372120E –
+554350N 0371155E –554407N 0365730E –554110N 0365551E –
+554612N 0365200E –554427N 0364007E –554130N 0362030E –
+553642N 0363900E –553300N 0365200E –552500N 0363900E –
+552042N 0364030E –551900N 0364100E –551552N 0363714E –
+551000N 0363930E –550036N 0363753E –545948N 0364312E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FT AMSL" value="10000"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="6000"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+            <AirspaceBounds>
+                <HorizontalBounds>
+                    554336N 0372300E –554459N 0373715E –553400N 0373653E –
+        553117N 0373226E –552744N 0373306E –552604N 0373807E –
+        551627N 0373940E –551309N 0373918E –550918N 0373858E –
+        550809N 0373853E –550313N 0373820E –550131N 0373809E –
+        545612N 0373734E –545514N 0372052E –545440N 0371122E –
+        545850N 0364932E –545948N 0364312E –550100N 0364400E –
+        551500N 0365300E –551900N 0364100E –552042N 0364030E –
+        552500N 0363900E –553300N 0365200E –553700N 0365900E –
+        554110N 0365551E –554407N 0365730E –554350N 0371155E –
+        554339N 0372120E –554336N 0372300E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FT AMSL" value="6000"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="5500"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+            <AirspaceBounds>
+                <HorizontalBounds>
+551300N 0370000E –551400N 0365700E –551500N 0365300E –
+550100N 0364400E –545948N 0364312E –545850N 0364932E –
+545440N 0371122E –545514N 0372052E –545612N 0373734E –
+550131N 0373809E –551300N 0370000E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FT AMSL" value="5500"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="4600"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+            <AirspaceBounds>
+                <HorizontalBounds>
+                    551300N 0370000E - arc 551348N 0363636E -
+                    550100N 0364400E –545948N 0364312E –545850N 0364932E –
+                    545440N 0371122E –545514N 0372052E –545612N 0373734E –
+                    550131N 0373809E –551300N 0370000E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FT AMSL" value="4600"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="3000"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+            <AirspaceBounds>
+                <HorizontalBounds>
+                    550131N 0373809E –545612N 0373734E –545514N 0372052E –
+                    545440N 0371122E –550346N 0365218E - arc ACW 551348N 0363636E -
+                    551300N 0370000E – 550131N 0373809E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FT AMSL" value="3000"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="1500"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+
+
+
+
+
+        </AirspaceBoundsCollection>
+    </Airspace>
+    <Airspace id="aspc_uuuu_tma_sec_a5" type="TMA" groups="uuuu_tma_sub">
+        <AirspaceBoundsCollection>
+            <AirspaceBounds>
+                <HorizontalBounds borderPolygon="RU">
+                    545612N 0373734E –550313N 0373820E –550809N 0373853E –
+551309N 0373918E –551627N 0373940E –552231N 0373841E –
+552431N 0375423E –551912N 0381029E –551307N 0382333E –
+551252N 0382357E –550330N 0383848E –551300N 0392800E –
+551227N 0394221E –550535N 0393627E –545001N 0392323E –
+541400N 0385353E –541711N 0383523E –542044N 0381419E –
+542728N 0375019E –543512N 0372248E –545612N 0373734E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FL" value="285"/>
+                    <VerticalBoundsEntry direction="LOW" type="FL" value="135"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+            <AirspaceBounds>
+                <HorizontalBounds>
+545612N 0373734E –545331N 0374615E –544923N 0374900E –
+545010N 0375721E –544919N 0380949E –545103N 0382156E –
+545139N 0383323E –545141N 0383443E –545238N 0383703E –
+545551N 0384500E –550330N 0383848E –551300N 0392800E –
+551227N 0394221E –550535N 0393627E –545001N 0392323E –
+541400N 0385353E –541711N 0383523E –542044N 0381419E –
+542728N 0375019E –543512N 0372248E –545612N 0373734E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FL" value="135"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="3000"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+        </AirspaceBoundsCollection>
+    </Airspace>
+    <Airspace id="aspc_uuuu_tma_sec_a7" type="TMA" groups="uuuu_tma_sub">
+        <AirspaceBoundsCollection>
+            <AirspaceBounds>
+                <HorizontalBounds borderPolygon="RU">
+560735N 0373712E –560810N 0374658E –562611N 0374855E –
+563350N 0374317E –564935N 0375127E –570216N 0375943E –
+565710N 0380810E –565220N 0381614E –563058N 0385120E –
+562547N 0385942E –560134N 0393803E –553953N 0395440E –
+553300N 0395953E –551227N 0394221E –551300N 0392800E –
+550330N 0383848E –551252N 0382357E –551307N 0382333E –
+551912N 0381029E –552431N 0375423E –552231N 0373841E –
+552150N 0373248E –554339N 0372120E –554336N 0372300E –
+554459N 0373715E –555500N 0374429E –560735N 0373712E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FL" value="285"/>
+                    <VerticalBoundsEntry direction="LOW" type="FL" value="135"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+            <AirspaceBounds>
+                <HorizontalBounds>
+555531N 0381508E –560530N 0381400E –560637N 0380809E –
+560736N 0380835E –561716N 0381257E –562031N 0380010E –
+562334N 0375422E –562611N 0374855E –563350N 0374317E –
+564935N 0375127E –570216N 0375943E –565710N 0380810E –
+565220N 0381614E –563058N 0385120E –562547N 0385942E –
+560134N 0393803E –553953N 0395440E –553300N 0395953E –
+551227N 0394221E –551300N 0392800E –550330N 0383848E –
+551252N 0382357E –552131N 0382935E –552409N 0382906E –
+553221N 0383349E –553746N 0383657E –554726N 0382412E –
+555531N 0381508E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FL" value="135"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="3000"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+        </AirspaceBoundsCollection>
+    </Airspace>
+    <Airspace id="aspc_uuuu_tma_sec_a6" type="TMA" groups="uuuu_tma_sub">
+        <AirspaceBoundsCollection>
+            <AirspaceBounds>
+                <HorizontalBounds borderPolygon="RU">
+550809N 0373853E –550722N 0380728E –550854N 0381308E –
+550040N 0382256E –545139N 0383323E –545103N 0382156E –
+544919N 0380949E –545010N 0375721E –544923N 0374900E –
+545331N 0374615E –545612N 0373734E –550313N 0373820E –
+550809N 0373853E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FL" value="135"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="5500"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+            <AirspaceBounds>
+                <HorizontalBounds>
+545331N 0374615E –544923N 0374900E –545010N 0375721E –
+544919N 0380949E –545103N 0382156E –545139N 0383323E –
+550040N 0382256E –545716N0375158E –550131N 0373809E –
+545612N 0373734E –545331N 0374615E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FT AMSL" value="5500"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="3000"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+            <AirspaceBounds>
+                <HorizontalBounds>
+545716N 0375158E –550131N 0373809E –545612N 0373734E –
+545331N 0374615E –545010N 0375721E –544919N 0380949E –
+545103N 0382156E –545139N 0383323E –550040N 0382256E –
+545716N 0375158E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FT AMSL" value="3000"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="1500"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+        </AirspaceBoundsCollection>
+    </Airspace>
+    <Airspace id="aspc_uuuu_tma_sec_a8" type="TMA" groups="uuuu_tma_sub">
+        <AirspaceBoundsCollection>
+            <AirspaceBounds>
+                <HorizontalBounds borderPolygon="RU">
+550330N 0383848E –545551N 0384500E –545238N 0383703E –
+545141N 0383443E –545139N 0383323E –550040N 0382256E –
+550854N 0381308E –550722N 0380728E –550809N 0373853E –
+550918N 0373858E –551309N 0373918E –551627N 0373940E –
+552231N 0373841E –552604N 0373807E –552744N 0373306E –
+553117N 0373226E –553400N 0373653E –553424N 0374233E –
+553445N 0374741E –553612N 0375106E –553459N 0375242E –
+552930N 0380000E –552048N 0381112E –551307N 0382333E –
+551252N 0382357E –550709N 0383303E –550330N 0383848E
+
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FL" value="135"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="5500"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+            <AirspaceBounds>
+                <HorizontalBounds>
+545139N 0383323E –545141N 0383443E –545551N 0384500E –
+550330N 0383848E –550709N 0383303E –550408N 0382820E –
+550055N 0382347E –550040N 0382256E –545139N 0383323E
+
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FT AMSL" value="5500"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="4600"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+            <AirspaceBounds>
+                <HorizontalBounds>
+545139N 0383323E –545141N 0383443E –545238N 0383703E –
+545900N 0383200E –550330N 0383848E –550709N 0383303E –
+550408N 0382820E –550055N 0382347E –550040N 0382256E –
+545139N 0383323E
+                </HorizontalBounds>
+                <VerticalBounds>
+                    <VerticalBoundsEntry direction="HIGH" type="FT AMSL" value="4600"/>
+                    <VerticalBoundsEntry direction="LOW" type="FT AMSL" value="1500"/>
+                </VerticalBounds>
+            </AirspaceBounds>
+        </AirspaceBoundsCollection>
+    </Airspace>
+</Airspaces>
