@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Airspaces xmlns="ivao-data-elements">
+<Airspaces xmlns="ivao-data-elements"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="ivao-data-elements https://raw.githubusercontent.com/davidkan2003/ivao-data-schema/main/Elements.xsd">
     <AirspaceGroups>
     <AirspaceGroup id="ulll_acc" name="ULLL FIR"/>
     <AirspaceGroup id="ulll_sub_acc" name="ULLL FIR Sectors"/>
