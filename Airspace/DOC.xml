@@ -1,7 +1,7 @@
 <!-- Defines file type - airspaces definition -->
-<Airspaces xmlns="ivao-data-elements"
+<Airspaces xmlns="ivao-data"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="ivao-data-elements https://raw.githubusercontent.com/davidkan2003/ivao-data-schema/main/Elements.xsd">
+ xsi:schemaLocation="ivao-data https://raw.githubusercontent.com/davidkan2003/ivao-data-schema/main/Schema.xsd">
     <!-- Defines a single airspace entry -->
     <Airspace
         id="dummy_aspc_id"

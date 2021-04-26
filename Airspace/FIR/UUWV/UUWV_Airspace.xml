@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Airspaces xmlns="ivao-data-elements"
+<Airspaces xmlns="ivao-data"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="ivao-data-elements https://raw.githubusercontent.com/davidkan2003/ivao-data-schema/main/Elements.xsd">
+ xsi:schemaLocation="ivao-data https://raw.githubusercontent.com/davidkan2003/ivao-data-schema/main/Schema.xsd">
     <AirspaceGroups>
         <AirspaceGroup id="uuwv_acc" name="UUWV FIR"/>
         <AirspaceGroup id="uuwv_sub_acc" name="UUWV FIR Sectors"/>
